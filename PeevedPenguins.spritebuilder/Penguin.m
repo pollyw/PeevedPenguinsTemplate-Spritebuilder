@@ -10,7 +10,8 @@
 
 @implementation Penguin
 
--(id)init {
+//test connection with spritebuilder
+/*-(id)init {
     self = [super init];
     
     if (self) {
@@ -18,6 +19,6 @@
     }
     
     return self;
-}
+}*/
 
 @end

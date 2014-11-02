@@ -54,8 +54,11 @@
     
     [self setupCocos2dWithOptions:cocos2dSetup];
     
+    //used to test the connection between spritebuilder
+    /*
     [CCBReader load:@"Penguin"];
     [CCBReader load:@"Seal"];
+     */
     
     return YES;
 }

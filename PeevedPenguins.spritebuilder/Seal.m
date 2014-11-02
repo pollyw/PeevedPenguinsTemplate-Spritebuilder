@@ -10,7 +10,8 @@
 
 @implementation Seal
 
-- (id)init {
+//test the connection with spritebuilder
+/*- (id)init {
     self = [super init];
     
     if (self) {
@@ -18,6 +19,6 @@
     }
     
     return self;
-}
+}*/
 
 @end
