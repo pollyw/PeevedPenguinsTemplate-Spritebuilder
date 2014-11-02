@@ -11,7 +11,7 @@
 @implementation Penguin
 
 -(id)init {
-    self = [self init];
+    self = [super init];
     
     if (self) {
         CCLOG(@"Penguin created");
