@@ -495,8 +495,8 @@
 							<key>points</key>
 							<array>
 								<array>
-									<real>-0.828125</real>
-									<real>-7.16015625</real>
+									<real>0.9140777587890625</real>
+									<real>-21.015625</real>
 								</array>
 								<array>
 									<real>0.0</real>
@@ -507,16 +507,16 @@
 									<real>61</real>
 								</array>
 								<array>
-									<real>960</real>
-									<real>0.0</real>
+									<real>960.01959228515625</real>
+									<real>-23.9921875</real>
 								</array>
 							</array>
 							<key>polygons</key>
 							<array>
 								<array>
 									<array>
-										<real>960</real>
-										<real>0.0</real>
+										<real>960.01959228515625</real>
+										<real>-23.9921875</real>
 									</array>
 									<array>
 										<real>960</real>
@@ -527,8 +527,8 @@
 										<real>61</real>
 									</array>
 									<array>
-										<real>-0.828125</real>
-										<real>-7.16015625</real>
+										<real>0.9140777587890625</real>
+										<real>-21.015625</real>
 									</array>
 								</array>
 							</array>
@@ -550,8 +550,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>-1</real>
-									<real>3</real>
+									<real>0.0</real>
+									<real>0.0</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
