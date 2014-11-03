@@ -12,6 +12,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
+    CCNode *_contentNode;
 }
 
 //is called when ccb file has completed loading
@@ -47,7 +48,12 @@
     //ensure followed object is in visible are when starting
     self.position = ccp(0,0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [self runAction:follow];
+    
+    //scroll the whole scene
+    //[self runAction:follow];
+    
+    //scroll only the contentNode
+    [_contentNode runAction:follow];
 }
 
 -(void)retry {
