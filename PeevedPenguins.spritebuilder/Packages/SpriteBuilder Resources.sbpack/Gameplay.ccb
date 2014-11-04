@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>197.00003051757812</real>
-						<real>181.00003051757812</real>
+						<real>256.00003051757812</real>
+						<real>155.00003051757812</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -246,7 +246,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>54.203319549560547</real>
+						<real>115</real>
 						<false/>
 					</array>
 				</dict>
@@ -267,8 +267,6 @@
 					<real>4</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1089,8 +1087,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>161.00006103515625</real>
-											<real>298.00003051757812</real>
+											<real>220.00006103515625</real>
+											<real>272.00003051757812</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1134,6 +1132,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
