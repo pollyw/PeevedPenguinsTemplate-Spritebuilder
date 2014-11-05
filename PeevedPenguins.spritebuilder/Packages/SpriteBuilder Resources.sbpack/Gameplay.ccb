@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>220.07182312011719</real>
-						<real>108.45004272460938</real>
+						<real>221.00004577636719</real>
+						<real>106.00001525878906</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>150.35939025878906</real>
-						<real>245.68362426757812</real>
+						<real>219.96096801757812</real>
+						<real>282.10940551757812</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>1.3593902587890625</real>
-						<real>-23.316375732421875</real>
+						<real>-0.039031982421875</real>
+						<real>3.109405517578125</real>
 					</array>
 				</dict>
 				<dict>
@@ -246,7 +246,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>20</real>
+						<real>39.480140686035156</real>
 						<true/>
 					</array>
 				</dict>
@@ -539,8 +539,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>188.00001525878906</real>
-											<real>180</real>
+											<real>229.00001525878906</real>
+											<real>184</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -569,14 +569,6 @@
 											<false/>
 											<integer>0</integer>
 										</array>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>rotation</string>
-										<key>type</key>
-										<string>Degrees</string>
-										<key>value</key>
-										<real>-30</real>
 									</dict>
 									<dict>
 										<key>name</key>
@@ -1095,8 +1087,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>149</real>
-											<real>269</real>
+											<real>220</real>
+											<real>279</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
