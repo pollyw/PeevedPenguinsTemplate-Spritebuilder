@@ -267,8 +267,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1024,13 +1022,13 @@
 									<key>cornerRadius</key>
 									<real>0.0</real>
 									<key>density</key>
-									<real>1</real>
+									<real>0.0</real>
 									<key>dynamic</key>
 									<false/>
 									<key>elasticity</key>
-									<real>0.30000001192092896</real>
+									<real>0.0</real>
 									<key>friction</key>
-									<real>0.30000001192092896</real>
+									<real>0.0</real>
 									<key>points</key>
 									<array>
 										<array>
@@ -1074,6 +1072,14 @@
 								</dict>
 								<key>properties</key>
 								<array>
+									<dict>
+										<key>name</key>
+										<string>visible</string>
+										<key>type</key>
+										<string>Check</string>
+										<key>value</key>
+										<false/>
+									</dict>
 									<dict>
 										<key>name</key>
 										<string>name</string>
@@ -1134,6 +1140,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
