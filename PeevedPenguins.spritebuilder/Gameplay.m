@@ -7,7 +7,6 @@
 //
 
 #import "Gameplay.h"
-#import "Seal.m"
 
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
