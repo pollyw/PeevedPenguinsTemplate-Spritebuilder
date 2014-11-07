@@ -137,10 +137,6 @@
     [_contentNode runAction:follow];
 }
 
--(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
-    CCLOG(@"Something collided with a seal!");
-}
-
 -(void)retry {
     //relaod this level
     [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
