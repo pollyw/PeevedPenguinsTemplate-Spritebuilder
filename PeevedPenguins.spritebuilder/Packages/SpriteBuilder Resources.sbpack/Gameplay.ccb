@@ -844,7 +844,7 @@
 								<key>children</key>
 								<array/>
 								<key>customClass</key>
-								<string></string>
+								<string>seal</string>
 								<key>displayName</key>
 								<string>ground</string>
 								<key>memberVarAssignmentName</key>
@@ -933,7 +933,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>-2</real>
+											<real>0.0</real>
 											<real>0.0</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -989,6 +989,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1117,8 +1119,6 @@
 										<real>-2.3623507022857666</real>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
