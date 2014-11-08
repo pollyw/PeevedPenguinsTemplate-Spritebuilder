@@ -7,6 +7,7 @@
 //
 
 #import "Gameplay.h"
+#import "CCPhysics+ObjectiveChipmunk.h"
 
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
@@ -138,7 +139,33 @@
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
-    CCLOG(@"Something collided with a seal!");
+    float energy = [pair totalKineticEnergy];
+    
+    //if energy is large enough, remove the seal
+    if (energy > 5000.f) {
+        [[_physicsNode space] addPostStepBlock:^{
+            [self sealRemoved:nodeA];
+        } key:nodeA];
+    }
+}
+
+-(void)sealRemoved:(CCNode *)seal {
+    [seal removeFromParent];
+    
+    //load particle effect
+    CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"SealExplosion"];
+    
+    //make the particle effect clean itself up, once it is completed
+    explosion.autoRemoveOnFinish = true;
+    
+    //place the particle effect on the seals position
+    explosion.position = seal.position;
+    
+    //add the particle efect tot he same node the seal is on
+    [seal.parent addChild:explosion];
+    
+    //finally, remove the destroyed seal
+    [seal removeFromParent];
 }
 
 -(void)retry {
