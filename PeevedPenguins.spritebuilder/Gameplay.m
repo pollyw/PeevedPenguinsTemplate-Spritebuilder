@@ -166,11 +166,15 @@
     
     //finally, remove the destroyed seal
     [seal removeFromParent];
-    
-    
-
 }
 
+-(void)startBlnkAndJump {
+    //the animation manager of each node is stored in the 'animationManager" property
+    CCAnimationManager* animationManager = self.animationManager;
+    
+    //timelines can be reference and run by name
+    [animationManager runAnimationsForSequenceNamed:@"BlinkAndJump"];
+}
 
 -(void)retry {
     //relaod this level
