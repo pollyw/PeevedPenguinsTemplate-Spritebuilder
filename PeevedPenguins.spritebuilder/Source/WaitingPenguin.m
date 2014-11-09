@@ -19,7 +19,7 @@
     
 }
 
--(void)startBlnkAndJump {
+-(void)startBlinkAndJump {
     //the animation manager of each node is stored in the 'animationManager" property
     CCAnimationManager* animationManager = self.animationManager;
     
