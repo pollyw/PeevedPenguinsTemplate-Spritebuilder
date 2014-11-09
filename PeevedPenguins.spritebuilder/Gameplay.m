@@ -8,6 +8,7 @@
 
 #import "Gameplay.h"
 #import "CCPhysics+ObjectiveChipmunk.h"
+#import "Penguin.h"
 
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
@@ -17,8 +18,11 @@
     CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
-    CCNode *_currentPenguin;
+    //changed from ccnod to penguin
+    Penguin *_currentPenguin;
     CCPhysicsJoint*_penguinCatapultJoint;
+    CCAction *_followPenguin;
+    
 }
 
 //is called when ccb file has completed loading
@@ -58,7 +62,8 @@
         
         //PENGUIN IN BOWL
         //create a penguin from the ccb-file
-        _currentPenguin = [CCBReader load:@"Penguin"];
+        //added (Penguin*) when changing ccnode to penguin in varaibles
+        _currentPenguin = (Penguin*)[CCBReader load:@"Penguin"];
         
         //initially position it on the scoop. 34,138 is the position in the node space of the catapultArm
         CGPoint penguinPosition = [_catapultArm convertToWorldSpace:ccp(34, 138)];
@@ -96,9 +101,12 @@
         //after snapping rotation is fine
         _currentPenguin.physicsBody.allowsRotation = true;
         
-        //follow the flying penguin
-        CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
-        [_contentNode runAction:follow];
+        //follow the current flying penguin
+        _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        [_contentNode runAction:_followPenguin];
+        
+        //once fired, set to true
+        _currentPenguin.launched = TRUE;
     }
 }
 
@@ -169,6 +177,44 @@
 
 }
 
+static const float MIN_SPEED = 5.f;
+
+-(void)update:(CCTime)delta {
+    
+    //check if the penguin has launched first
+    if (_currentPenguin.launched) {
+        //if speed is below minimum speed, assume this attempt is over
+        if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED) {
+        [self nextAttempt];
+        return;
+        }
+    
+        int xMin = _currentPenguin.boundingBox.origin.x;
+    
+        if (xMin < self.boundingBox.origin.x) {
+            [self nextAttempt];
+            return;
+        }
+    
+        int xMax = xMin + _currentPenguin.boundingBox.size.width;
+    
+        if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
+            [self nextAttempt];
+            return;
+        }
+    }
+}
+
+-(void)nextAttempt {
+    //reset reference of current penguin
+    _currentPenguin = nil;
+    //stop the scrolling on current penguin
+    [_contentNode stopAction:_followPenguin];
+    
+    //scroll back to catapult position
+    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0,0)];
+    [_contentNode runAction:actionMoveTo];
+}
 
 -(void)retry {
     //relaod this level
