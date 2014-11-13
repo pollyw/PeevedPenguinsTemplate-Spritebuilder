@@ -372,6 +372,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -972,7 +974,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>PeevedPenguinsAssets/ground.png</string>
+											<string>PeevedPenguinsAssets/ground2.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -1904,8 +1906,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
