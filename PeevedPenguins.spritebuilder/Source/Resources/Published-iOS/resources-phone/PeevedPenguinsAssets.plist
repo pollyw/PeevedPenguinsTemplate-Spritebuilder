@@ -69,6 +69,19 @@
 			<key>sourceSize</key>
 			<string>{80, 78}</string>
 		</dict>
+		<key>PeevedPenguinsAssets/block.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{731, 814}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{30, 30}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{128, 128}</string>
+		</dict>
 		<key>PeevedPenguinsAssets/button.png</key>
 		<dict>
 			<key>frame</key>
@@ -198,6 +211,19 @@
 			<string>{{0, 0}, {24, 24}}</string>
 			<key>sourceSize</key>
 			<string>{24, 24}</string>
+		</dict>
+		<key>PeevedPenguinsAssets/sun.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{731, 886}, {62, 62}}</string>
+			<key>offset</key>
+			<string>{1, 5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{34, 28}, {62, 62}}</string>
+			<key>sourceSize</key>
+			<string>{128, 128}</string>
 		</dict>
 		<key>PeevedPenguinsAssets/tallblock.png</key>
 		<dict>
