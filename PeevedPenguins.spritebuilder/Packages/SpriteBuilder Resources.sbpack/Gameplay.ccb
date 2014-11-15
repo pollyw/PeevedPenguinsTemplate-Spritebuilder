@@ -55,20 +55,12 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>238.59217834472656</real>
-						<real>63.820758819580078</real>
+						<real>240.44247436523438</real>
+						<real>66.634452819824219</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
 					</array>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>bodyA</string>
-					<key>type</key>
-					<string>NodeReference</string>
-					<key>value</key>
-					<integer>5</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -93,8 +85,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>251.00566101074219</real>
-						<real>223.62974548339844</real>
+						<real>0.0</real>
+						<real>0.0</real>
 					</array>
 				</dict>
 				<dict>
@@ -774,71 +766,6 @@
 								<string></string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
-								<key>physicsBody</key>
-								<dict>
-									<key>affectedByGravity</key>
-									<true/>
-									<key>allowsRotation</key>
-									<true/>
-									<key>bodyShape</key>
-									<integer>0</integer>
-									<key>collisionCategories</key>
-									<array/>
-									<key>collisionMask</key>
-									<array/>
-									<key>collisionType</key>
-									<string></string>
-									<key>cornerRadius</key>
-									<real>0.0</real>
-									<key>density</key>
-									<real>1</real>
-									<key>dynamic</key>
-									<false/>
-									<key>elasticity</key>
-									<real>0.30000001192092896</real>
-									<key>friction</key>
-									<real>0.30000001192092896</real>
-									<key>points</key>
-									<array>
-										<array>
-											<real>0.0</real>
-											<real>0.0</real>
-										</array>
-										<array>
-											<real>1.8222981691360474</real>
-											<real>43.929862976074219</real>
-										</array>
-										<array>
-											<real>958.10064697265625</real>
-											<real>40.716548919677734</real>
-										</array>
-										<array>
-											<real>960</real>
-											<real>0.0</real>
-										</array>
-									</array>
-									<key>polygons</key>
-									<array>
-										<array>
-											<array>
-												<real>960</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>958.10064697265625</real>
-												<real>40.716548919677734</real>
-											</array>
-											<array>
-												<real>1.8222981691360474</real>
-												<real>43.929862976074219</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-										</array>
-									</array>
-								</dict>
 								<key>properties</key>
 								<array>
 									<dict>
@@ -945,7 +872,7 @@
 									<key>cornerRadius</key>
 									<real>0.0</real>
 									<key>density</key>
-									<real>40</real>
+									<real>1</real>
 									<key>dynamic</key>
 									<true/>
 									<key>elasticity</key>
@@ -960,14 +887,14 @@
 										</array>
 										<array>
 											<real>0.0</real>
-											<real>177</real>
+											<real>512</real>
 										</array>
 										<array>
-											<real>42</real>
-											<real>177</real>
+											<real>512</real>
+											<real>512</real>
 										</array>
 										<array>
-											<real>42</real>
+											<real>512</real>
 											<real>0.0</real>
 										</array>
 									</array>
@@ -975,16 +902,16 @@
 									<array>
 										<array>
 											<array>
-												<real>42</real>
+												<real>512</real>
 												<real>0.0</real>
 											</array>
 											<array>
-												<real>42</real>
-												<real>177</real>
+												<real>512</real>
+												<real>512</real>
 											</array>
 											<array>
 												<real>0.0</real>
-												<real>177</real>
+												<real>512</real>
 											</array>
 											<array>
 												<real>0.0</real>
@@ -1010,8 +937,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>244.00001525878906</real>
-											<real>84</real>
+											<real>246.00001525878906</real>
+											<real>83</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1035,8 +962,8 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1.0827944278717041</real>
-											<real>0.62338840961456299</real>
+											<real>1.1127673387527466</real>
+											<real>0.50557363033294678</real>
 											<false/>
 											<integer>0</integer>
 										</array>
