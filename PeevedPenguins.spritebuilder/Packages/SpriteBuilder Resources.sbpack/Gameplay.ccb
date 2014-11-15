@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>239.41018676757812</real>
-						<real>58.937515258789062</real>
+						<real>238.41799926757812</real>
+						<real>58.160171508789062</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>64.860572814941406</real>
-						<real>52.903766632080078</real>
+						<real>64.255088806152344</real>
+						<real>52.188690185546875</real>
 					</array>
 				</dict>
 				<dict>
@@ -139,8 +139,6 @@
 					</array>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1019,7 +1017,7 @@
 								<key>displayName</key>
 								<string>catapult</string>
 								<key>memberVarAssignmentName</key>
-								<string></string>
+								<string>_catapult</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>physicsBody</key>
@@ -1238,6 +1236,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
