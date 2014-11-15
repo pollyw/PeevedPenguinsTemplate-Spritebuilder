@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>231.63674926757812</real>
-						<real>91.898452758789062</real>
+						<real>240.40631103515625</real>
+						<real>63.820343017578125</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>20.373725891113281</real>
-						<real>2.1417834758758545</real>
+						<real>251.00566101074219</real>
+						<real>223.62974548339844</real>
 					</array>
 				</dict>
 				<dict>
@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>185.88545227050781</real>
-						<real>253.99485778808594</real>
+						<real>241.45706176757812</real>
+						<real>91.140632629394531</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>-8.80859375</real>
-						<real>-16.656219482421875</real>
+						<real>40.003086090087891</real>
+						<real>-181.66264343261719</real>
 					</array>
 				</dict>
 				<dict>
@@ -267,6 +267,8 @@
 					<real>300</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1138,8 +1140,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>189.00001525878906</real>
-											<real>167</real>
+											<real>235.00001525878906</real>
+											<real>84</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1163,8 +1165,8 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1</real>
-											<real>1</real>
+											<real>1.0827944278717041</real>
+											<real>0.62338840961456299</real>
 											<false/>
 											<integer>0</integer>
 										</array>
@@ -1185,7 +1187,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>PeevedPenguinsAssets/catapultarm.png</string>
+											<string>PeevedPenguinsAssets/plank.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -1301,7 +1303,7 @@
 										<key>value</key>
 										<array>
 											<real>239</real>
-											<real>73</real>
+											<real>52</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1325,8 +1327,8 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1</real>
-											<real>1</real>
+											<real>0.60524272918701172</real>
+											<real>0.5566551685333252</real>
 											<false/>
 											<integer>0</integer>
 										</array>
@@ -2040,8 +2042,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
