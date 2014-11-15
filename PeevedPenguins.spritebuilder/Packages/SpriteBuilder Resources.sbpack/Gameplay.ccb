@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>240.44247436523438</real>
-						<real>66.634452819824219</real>
+						<real>240.68753051757812</real>
+						<real>66.015640258789062</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -64,11 +64,11 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>bodyB</string>
+					<string>bodyA</string>
 					<key>type</key>
 					<string>NodeReference</string>
 					<key>value</key>
-					<integer>4</integer>
+					<integer>5</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -76,7 +76,7 @@
 					<key>type</key>
 					<string>Check</string>
 					<key>value</key>
-					<false/>
+					<true/>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -85,8 +85,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>0.0</real>
-						<real>0.0</real>
+						<real>251.22587585449219</real>
+						<real>222.40576171875</real>
 					</array>
 				</dict>
 				<dict>
@@ -993,8 +993,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1011,71 +1009,6 @@
 								<string></string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
-								<key>physicsBody</key>
-								<dict>
-									<key>affectedByGravity</key>
-									<true/>
-									<key>allowsRotation</key>
-									<true/>
-									<key>bodyShape</key>
-									<integer>0</integer>
-									<key>collisionCategories</key>
-									<array/>
-									<key>collisionMask</key>
-									<array/>
-									<key>collisionType</key>
-									<string></string>
-									<key>cornerRadius</key>
-									<real>0.0</real>
-									<key>density</key>
-									<real>1</real>
-									<key>dynamic</key>
-									<false/>
-									<key>elasticity</key>
-									<real>0.30000001192092896</real>
-									<key>friction</key>
-									<real>0.30000001192092896</real>
-									<key>points</key>
-									<array>
-										<array>
-											<real>0.0</real>
-											<real>0.0</real>
-										</array>
-										<array>
-											<real>0.0</real>
-											<real>92</real>
-										</array>
-										<array>
-											<real>215</real>
-											<real>92</real>
-										</array>
-										<array>
-											<real>215</real>
-											<real>0.0</real>
-										</array>
-									</array>
-									<key>polygons</key>
-									<array>
-										<array>
-											<array>
-												<real>215</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>215</real>
-												<real>92</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>92</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-										</array>
-									</array>
-								</dict>
 								<key>properties</key>
 								<array>
 									<dict>
@@ -1227,6 +1160,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
