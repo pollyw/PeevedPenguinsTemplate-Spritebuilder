@@ -82,6 +82,19 @@
 			<key>sourceSize</key>
 			<string>{668, 610}</string>
 		</dict>
+		<key>PeevedPenguinsAssets/canon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1703, 1655}, {482, 560}}</string>
+			<key>offset</key>
+			<string>{0, -27}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{271, 259}, {482, 560}}</string>
+			<key>sourceSize</key>
+			<string>{1024, 1024}</string>
+		</dict>
 		<key>PeevedPenguinsAssets/catapult.png</key>
 		<dict>
 			<key>frame</key>
@@ -124,7 +137,7 @@
 		<key>PeevedPenguinsAssets/flyingpenguin.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2271, 1655}, {100, 100}}</string>
+			<string>{{2151, 2139}, {100, 100}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -202,7 +215,7 @@
 		<key>PeevedPenguinsAssets/seal.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2159, 1655}, {110, 100}}</string>
+			<string>{{2265, 1655}, {110, 100}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -215,7 +228,7 @@
 		<key>PeevedPenguinsAssets/squareblock.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2159, 1757}, {98, 96}}</string>
+			<string>{{1403, 1999}, {98, 96}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -254,11 +267,11 @@
 		<key>PeevedPenguinsAssets/taperedblock.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1703, 1655}, {454, 108}}</string>
+			<string>{{2265, 1757}, {454, 108}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {454, 108}}</string>
 			<key>sourceSize</key>
@@ -276,6 +289,19 @@
 			<string>{{0, 0}, {118, 116}}</string>
 			<key>sourceSize</key>
 			<string>{118, 116}</string>
+		</dict>
+		<key>PeevedPenguinsAssets/wheel.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1703, 2139}, {446, 446}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{33, 33}, {446, 446}}</string>
+			<key>sourceSize</key>
+			<string>{512, 512}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>

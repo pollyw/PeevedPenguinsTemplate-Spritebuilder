@@ -20,7 +20,7 @@
 		<key>PeevedPenguinsAssets/bear.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{323, 827}, {80, 78}}</string>
+			<string>{{445, 941}, {80, 78}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -46,7 +46,7 @@
 		<key>PeevedPenguinsAssets/bearnoarms.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{323, 909}, {80, 78}}</string>
+			<string>{{525, 941}, {80, 78}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -59,7 +59,7 @@
 		<key>PeevedPenguinsAssets/block.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{403, 827}, {70, 70}}</string>
+			<string>{{417, 441}, {70, 70}}</string>
 			<key>offset</key>
 			<string>{1, -1}</string>
 			<key>rotated</key>
@@ -81,6 +81,19 @@
 			<string>{{0, 0}, {167, 152}}</string>
 			<key>sourceSize</key>
 			<string>{167, 152}</string>
+		</dict>
+		<key>PeevedPenguinsAssets/canon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{323, 827}, {120, 140}}</string>
+			<key>offset</key>
+			<string>{0, -7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{68, 65}, {120, 140}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
 		</dict>
 		<key>PeevedPenguinsAssets/catapult.png</key>
 		<dict>
@@ -228,7 +241,7 @@
 		<key>PeevedPenguinsAssets/sun.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{403, 899}, {62, 62}}</string>
+			<string>{{417, 513}, {62, 62}}</string>
 			<key>offset</key>
 			<string>{1, 5}</string>
 			<key>rotated</key>
@@ -276,6 +289,19 @@
 			<string>{{0, 0}, {29, 29}}</string>
 			<key>sourceSize</key>
 			<string>{29, 29}</string>
+		</dict>
+		<key>PeevedPenguinsAssets/wheel.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{445, 827}, {112, 112}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 8}, {112, 112}}</string>
+			<key>sourceSize</key>
+			<string>{128, 128}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>

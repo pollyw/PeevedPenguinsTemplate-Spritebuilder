@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>30</integer>
+	<integer>31</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>240.41799926757812</real>
-						<real>54.052894592285156</real>
+						<real>237.32646179199219</real>
+						<real>55.642776489257812</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>64.255088806152344</real>
-						<real>52.188690185546875</real>
+						<real>152.13163757324219</real>
+						<real>40.349925994873047</real>
 					</array>
 				</dict>
 				<dict>
@@ -948,8 +948,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>240</real>
-											<real>59</real>
+											<real>275</real>
+											<real>86</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -973,11 +973,19 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1.6386666297912598</real>
-											<real>0.4188445508480072</real>
+											<real>0.30886250734329224</real>
+											<real>0.54540568590164185</real>
 											<false/>
 											<integer>0</integer>
 										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>rotation</string>
+										<key>type</key>
+										<string>Degrees</string>
+										<key>value</key>
+										<real>60</real>
 									</dict>
 									<dict>
 										<key>name</key>
@@ -987,7 +995,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>PeevedPenguinsAssets/plank.png</string>
+											<string>PeevedPenguinsAssets/canon.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -1004,8 +1012,95 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
+							</dict>
+							<dict>
+								<key>UUID</key>
+								<integer>30</integer>
+								<key>baseClass</key>
+								<string>CCSprite</string>
+								<key>children</key>
+								<array/>
+								<key>customClass</key>
+								<string></string>
+								<key>displayName</key>
+								<string>wheel</string>
+								<key>memberVarAssignmentName</key>
+								<string></string>
+								<key>memberVarAssignmentType</key>
+								<integer>1</integer>
+								<key>properties</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>name</string>
+										<key>type</key>
+										<string>StringSimple</string>
+										<key>value</key>
+										<string></string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>position</string>
+										<key>type</key>
+										<string>Position</string>
+										<key>value</key>
+										<array>
+											<real>271</real>
+											<real>51</real>
+											<integer>0</integer>
+											<integer>0</integer>
+											<integer>0</integer>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>anchorPoint</string>
+										<key>type</key>
+										<string>Point</string>
+										<key>value</key>
+										<array>
+											<real>0.5</real>
+											<real>0.5</real>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>scale</string>
+										<key>type</key>
+										<string>ScaleLock</string>
+										<key>value</key>
+										<array>
+											<real>0.39379459619522095</real>
+											<real>0.48002949357032776</real>
+											<false/>
+											<integer>0</integer>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>spriteFrame</string>
+										<key>type</key>
+										<string>SpriteFrame</string>
+										<key>value</key>
+										<array>
+											<string></string>
+											<string>PeevedPenguinsAssets/wheel.png</string>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>color</string>
+										<key>type</key>
+										<string>Color3</string>
+										<key>value</key>
+										<array>
+											<real>1</real>
+											<real>1</real>
+											<real>1</real>
+											<real>1</real>
+										</array>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1143,7 +1238,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>PeevedPenguinsAssets/block.png</string>
+											<string>PeevedPenguinsAssets/wheel.png</string>
 										</array>
 									</dict>
 									<dict>
