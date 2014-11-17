@@ -1363,8 +1363,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>102.69390869140625</real>
-											<real>-21.958614349365234</real>
+											<real>137.32748413085938</real>
+											<real>-139.31404113769531</real>
 										</array>
 									</array>
 									<key>polygons</key>
@@ -1448,6 +1448,8 @@
 										<real>-2.3623507022857666</real>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1560,8 +1562,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
