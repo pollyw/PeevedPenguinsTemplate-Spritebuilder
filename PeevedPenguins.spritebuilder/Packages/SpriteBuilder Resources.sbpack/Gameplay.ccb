@@ -869,9 +869,9 @@
 								<key>physicsBody</key>
 								<dict>
 									<key>affectedByGravity</key>
-									<true/>
-									<key>allowsRotation</key>
 									<false/>
+									<key>allowsRotation</key>
+									<true/>
 									<key>bodyShape</key>
 									<integer>0</integer>
 									<key>collisionCategories</key>
