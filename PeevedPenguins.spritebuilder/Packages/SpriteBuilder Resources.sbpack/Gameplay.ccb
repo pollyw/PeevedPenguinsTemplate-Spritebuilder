@@ -244,6 +244,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -893,58 +895,58 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>49.950832366943359</real>
-											<real>13.729281425476074</real>
+											<real>66.57196044921875</real>
+											<real>51.919631958007812</real>
 										</array>
 										<array>
-											<real>77.116691589355469</real>
-											<real>215.50288391113281</real>
+											<real>74.301803588867188</real>
+											<real>194.87959289550781</real>
 										</array>
 										<array>
-											<real>206.41712951660156</real>
-											<real>167.959716796875</real>
+											<real>183.24855041503906</real>
+											<real>191.85989379882812</real>
 										</array>
 										<array>
-											<real>191.25538635253906</real>
-											<real>93.127090454101562</real>
+											<real>181.70191955566406</real>
+											<real>120.65563201904297</real>
 										</array>
 										<array>
-											<real>203.15866088867188</real>
-											<real>81.941078186035156</real>
+											<real>188.6407470703125</real>
+											<real>80.807716369628906</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>49.950832366943359</real>
-												<real>13.729281425476074</real>
+												<real>181.70191955566406</real>
+												<real>120.65563201904297</real>
 											</array>
 											<array>
-												<real>203.15866088867188</real>
-												<real>81.941078186035156</real>
+												<real>183.24855041503906</real>
+												<real>191.85989379882812</real>
 											</array>
 											<array>
-												<real>191.25538635253906</real>
-												<real>93.127090454101562</real>
+												<real>74.301803588867188</real>
+												<real>194.87959289550781</real>
 											</array>
 										</array>
 										<array>
 											<array>
-												<real>191.25538635253906</real>
-												<real>93.127090454101562</real>
+												<real>74.301803588867188</real>
+												<real>194.87959289550781</real>
 											</array>
 											<array>
-												<real>206.41712951660156</real>
-												<real>167.959716796875</real>
+												<real>66.57196044921875</real>
+												<real>51.919631958007812</real>
 											</array>
 											<array>
-												<real>77.116691589355469</real>
-												<real>215.50288391113281</real>
+												<real>188.6407470703125</real>
+												<real>80.807716369628906</real>
 											</array>
 											<array>
-												<real>49.950832366943359</real>
-												<real>13.729281425476074</real>
+												<real>181.70191955566406</real>
+												<real>120.65563201904297</real>
 											</array>
 										</array>
 									</array>
@@ -1030,8 +1032,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1144,7 +1144,7 @@
 									<key>allowsRotation</key>
 									<true/>
 									<key>bodyShape</key>
-									<integer>0</integer>
+									<integer>1</integer>
 									<key>collisionCategories</key>
 									<array/>
 									<key>collisionMask</key>
@@ -1152,7 +1152,7 @@
 									<key>collisionType</key>
 									<string></string>
 									<key>cornerRadius</key>
-									<real>0.0</real>
+									<real>53.124973297119141</real>
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
@@ -1164,43 +1164,12 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
-										</array>
-										<array>
-											<real>0.0</real>
-											<real>128</real>
-										</array>
-										<array>
-											<real>128</real>
-											<real>128</real>
-										</array>
-										<array>
-											<real>128</real>
-											<real>0.0</real>
+											<real>64</real>
+											<real>64</real>
 										</array>
 									</array>
 									<key>polygons</key>
-									<array>
-										<array>
-											<array>
-												<real>128</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>128</real>
-												<real>128</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>128</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-										</array>
-									</array>
+									<array/>
 								</dict>
 								<key>properties</key>
 								<array>
@@ -1219,8 +1188,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>239</real>
-											<real>52</real>
+											<real>240</real>
+											<real>54</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
