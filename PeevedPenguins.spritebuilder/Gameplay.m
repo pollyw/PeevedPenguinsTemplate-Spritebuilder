@@ -46,7 +46,8 @@
 }
 
 //called on every touch in this scene
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+/*
+ - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     //[self launchPenguin];
     
     CGPoint touchLocation = [touch locationInNode:_contentNode];
@@ -81,6 +82,7 @@
         _penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
     }
 }
+ */
 
 -(void)touchMoved:(UITouch *)touch withEvent:(UIEvent *)event {
     //whenever touches move,update the position of the mouseJointNode to the touch position
