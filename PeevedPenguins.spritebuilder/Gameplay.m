@@ -88,7 +88,7 @@
     _mouseJointNode.position = touchLocation;
 }
 
--(void)releaseCatapult {
+/*-(void)releaseCatapult {
     if (_mouseJoint != nil) {
         //releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
@@ -119,7 +119,8 @@
     //when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
     [self releaseCatapult];
 }
-
+*/
+ 
 - (void)launchPenguin {
     //loads the Penguid.ccb we have set up in spritebuilder
     CCNode *penguin = [CCBReader load:@"Penguin"];
