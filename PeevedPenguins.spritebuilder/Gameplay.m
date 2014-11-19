@@ -142,10 +142,10 @@
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     
     //scroll the whole scene
-    //[self runAction:follow];
+    [self runAction:follow];
     
     //scroll only the contentNode
-    [_contentNode runAction:follow];
+    //[_contentNode runAction:follow];
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
