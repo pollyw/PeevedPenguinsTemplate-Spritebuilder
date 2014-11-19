@@ -83,7 +83,7 @@
 }
  
 
-/*-(void)touchMoved:(UITouch *)touch withEvent:(UIEvent *)event {
+-(void)touchMoved:(UITouch *)touch withEvent:(UIEvent *)event {
     //whenever touches move,update the position of the mouseJointNode to the touch position
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     _mouseJointNode.position = touchLocation;
@@ -120,7 +120,7 @@
     //when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
     [self releaseCatapult];
 }
-*/
+
  
 - (void)launchPenguin {
     //loads the Penguid.ccb we have set up in spritebuilder
@@ -133,7 +133,7 @@
     [_physicsNode addChild:penguin];
     
     //manually create & apply a force to launch the penguin
-    CGPoint launchDirection = ccp(1,.7);
+    CGPoint launchDirection = ccp(1,.6);
     CGPoint force = ccpMult(launchDirection, 50000);
     [penguin.physicsBody applyForce:force];
     
@@ -142,10 +142,10 @@
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     
     //scroll the whole scene
-    [self runAction:follow];
+    //[self runAction:follow];
     
     //scroll only the contentNode
-    //[_contentNode runAction:follow];
+    [_contentNode runAction:follow];
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
