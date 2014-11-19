@@ -77,7 +77,14 @@
         [_physicsNode addChild:_currentPenguin];
         
         //we dont want the penguin to rotate in the scoop
-        _currentPenguin.physicsBody.allowsRotation = false;
+        //_currentPenguin.physicsBody.allowsRotation = false;
+        
+        //follow the current flying penguin
+        _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        [_contentNode runAction:_followPenguin];
+        
+        //once fired, set to true
+        _currentPenguin.launched = TRUE;
         
         //create a join to keep the penguin fixed to the scoop until the catapult is released
         //_penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
@@ -90,7 +97,6 @@
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     _mouseJointNode.position = touchLocation;
 }
- */
 
 -(void)releaseCatapult {
     if (_mouseJoint != nil) {
@@ -113,6 +119,7 @@
         _currentPenguin.launched = TRUE;
     }
 }
+
  
 
 -(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
@@ -123,8 +130,9 @@
 -(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event {
     //when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
     [self releaseCatapult];
-}
- 
+} 
+*/
+
 - (void)launchPenguin {
     //loads the Penguid.ccb we have set up in spritebuilder
     CCNode *penguin = [CCBReader load:@"Penguin"];
