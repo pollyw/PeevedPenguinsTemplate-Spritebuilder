@@ -137,7 +137,7 @@
 				<key>value</key>
 				<array>
 					<string></string>
-					<string>PeevedPenguinsAssets/flyingpenguin.png</string>
+					<string>PeevedPenguinsAssets/rocket.png</string>
 				</array>
 			</dict>
 			<dict>
@@ -154,8 +154,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
