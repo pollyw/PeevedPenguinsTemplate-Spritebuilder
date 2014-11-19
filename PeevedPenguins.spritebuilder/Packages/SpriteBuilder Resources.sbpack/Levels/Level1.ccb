@@ -519,8 +519,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>104.00003051757812</real>
-							<real>180.50003051757812</real>
+							<real>67.000030517578125</real>
+							<real>128.50003051757812</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -548,6 +548,8 @@
 						<string>star.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -672,8 +674,6 @@
 						<string>star.ccb</string>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
