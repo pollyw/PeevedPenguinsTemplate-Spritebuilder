@@ -76,10 +76,8 @@
         //add it to the physics world
         [_physicsNode addChild:_currentPenguin];
         
-        
-        
         //we dont want the penguin to rotate in the scoop
-        //_currentPenguin.physicsBody.allowsRotation = false;
+        _currentPenguin.physicsBody.allowsRotation = false;
         
         //create a join to keep the penguin fixed to the scoop until the catapult is released
         //_penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
@@ -94,7 +92,7 @@
 }
  */
 
-/*-(void)releaseCatapult {
+-(void)releaseCatapult {
     if (_mouseJoint != nil) {
         //releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
