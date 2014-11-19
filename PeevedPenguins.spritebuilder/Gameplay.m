@@ -51,11 +51,12 @@
     
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     
+    /*
     //start catapult dragging when a touch inside of the catapultArm occurs
     if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation)) {
         
         //move the mouseJointNode to the touch position
-        /*_mouseJointNode.position = touchLocation;
+        _mouseJointNode.position = touchLocation;
         
         //set up a spring joint between the mouseJointNode and the catapultArm
         _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:_catapultArm.physicsBody anchorA:ccp(0,0) anchorB:ccp(34,138) restLength:0.f stiffness:3000.f damping:100.f];
@@ -88,7 +89,8 @@
         
         //create a join to keep the penguin fixed to the scoop until the catapult is released
         //_penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
-    }
+    //}
+
 }
  
 
@@ -130,7 +132,7 @@
 -(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event {
     //when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
     [self releaseCatapult];
-} 
+}
 */
 
 - (void)launchPenguin {
