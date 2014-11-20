@@ -159,6 +159,8 @@
     
     //scroll only the contentNode
     [_contentNode runAction:follow];
+    
+    penguin.physicsBody.allowsRotation = true;
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
