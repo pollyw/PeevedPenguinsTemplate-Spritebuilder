@@ -19,7 +19,6 @@
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
     //changed from ccnode to penguin
-    Penguin *_currentPenguin;
     CCPhysicsJoint*_penguinCatapultJoint;
     CCAction *_followPenguin;
     
