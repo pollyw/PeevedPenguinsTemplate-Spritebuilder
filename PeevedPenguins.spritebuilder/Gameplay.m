@@ -174,8 +174,13 @@
     //add it to the physics world
     [_physicsNode addChild:_currentPenguin];
     
-    //we dont want the penguin to rotate in the scoop
-    //_currentPenguin.physicsBody.allowsRotation = false;
+    //manually create & apply a force to launch the penguin
+    CGPoint launchDirection = ccp(1,.6);
+    CGPoint force = ccpMult(launchDirection, 50000);
+    [_currentPenguin.physicsBody applyForce:force];
+
+    
+    _currentPenguin.physicsBody.allowsRotation = true;
     
     //follow the current flying penguin
     _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
