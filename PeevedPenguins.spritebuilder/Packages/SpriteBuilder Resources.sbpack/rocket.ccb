@@ -54,7 +54,7 @@
 			<key>allowsRotation</key>
 			<true/>
 			<key>bodyShape</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>collisionCategories</key>
 			<array/>
 			<key>collisionMask</key>
@@ -62,7 +62,7 @@
 			<key>collisionType</key>
 			<string></string>
 			<key>cornerRadius</key>
-			<real>0.0</real>
+			<real>7.31640625</real>
 			<key>density</key>
 			<real>10</real>
 			<key>dynamic</key>
@@ -74,69 +74,12 @@
 			<key>points</key>
 			<array>
 				<array>
-					<real>23.80084228515625</real>
-					<real>14.132827758789062</real>
-				</array>
-				<array>
-					<real>14.47271728515625</real>
-					<real>23.648468017578125</real>
-				</array>
-				<array>
-					<real>14.84381103515625</real>
-					<real>33.093780517578125</real>
-				</array>
-				<array>
-					<real>27.66021728515625</real>
-					<real>37.234405517578125</real>
-				</array>
-				<array>
-					<real>47.29693603515625</real>
-					<real>44.539093017578125</real>
-				</array>
-				<array>
-					<real>37.38287353515625</real>
-					<real>22.535186767578125</real>
+					<real>41.84771728515625</real>
+					<real>40.820343017578125</real>
 				</array>
 			</array>
 			<key>polygons</key>
-			<array>
-				<array>
-					<array>
-						<real>37.38287353515625</real>
-						<real>22.535186767578125</real>
-					</array>
-					<array>
-						<real>47.29693603515625</real>
-						<real>44.539093017578125</real>
-					</array>
-					<array>
-						<real>27.66021728515625</real>
-						<real>37.234405517578125</real>
-					</array>
-				</array>
-				<array>
-					<array>
-						<real>27.66021728515625</real>
-						<real>37.234405517578125</real>
-					</array>
-					<array>
-						<real>14.84381103515625</real>
-						<real>33.093780517578125</real>
-					</array>
-					<array>
-						<real>14.47271728515625</real>
-						<real>23.648468017578125</real>
-					</array>
-					<array>
-						<real>23.80084228515625</real>
-						<real>14.132827758789062</real>
-					</array>
-					<array>
-						<real>37.38287353515625</real>
-						<real>22.535186767578125</real>
-					</array>
-				</array>
-			</array>
+			<array/>
 		</dict>
 		<key>properties</key>
 		<array>
