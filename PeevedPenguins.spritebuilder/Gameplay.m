@@ -86,6 +86,11 @@
         
         //once fired, set to true
         _currentPenguin.launched = TRUE;
+                
+        //manually create & apply a force to launch the penguin
+        CGPoint launchDirection = ccp(1,.6);
+        CGPoint force = ccpMult(launchDirection, 50000);
+        [_currentPenguin.physicsBody applyForce:force];
         
         //create a join to keep the penguin fixed to the scoop until the catapult is released
         //_penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
