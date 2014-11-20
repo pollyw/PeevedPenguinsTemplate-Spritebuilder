@@ -136,6 +136,7 @@
 */
 
 - (void)launchPenguin {
+    /*
     //loads the Penguid.ccb we have set up in spritebuilder
     CCNode *penguin = [CCBReader load:@"Penguin"];
     
@@ -159,8 +160,8 @@
     
     //scroll only the contentNode
     [_contentNode runAction:follow];
-    
-    penguin.physicsBody.allowsRotation = true;
+     
+    */
     
     _currentPenguin = (Penguin*)[CCBReader load:@"Penguin"];
     
