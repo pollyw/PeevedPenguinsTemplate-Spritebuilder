@@ -19,6 +19,7 @@
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
     //changed from ccnode to penguin
+    Penguin *_currentPenguin;
     CCPhysicsJoint*_penguinCatapultJoint;
     CCAction *_followPenguin;
     
@@ -160,6 +161,27 @@
     [_contentNode runAction:follow];
     
     penguin.physicsBody.allowsRotation = true;
+    
+    _currentPenguin = (Penguin*)[CCBReader load:@"Penguin"];
+    
+    //initially position it on the scoop. 34,138 is the position in the node space of the catapultArm
+    CGPoint penguinPosition = [_catapultArm convertToWorldSpace:ccp(100, 200)];
+    
+    //transform the world position to the node space to which the penguin will be added (_physicsNode)
+    _currentPenguin.position = [_physicsNode convertToNodeSpace:penguinPosition];
+    
+    //add it to the physics world
+    [_physicsNode addChild:_currentPenguin];
+    
+    //we dont want the penguin to rotate in the scoop
+    //_currentPenguin.physicsBody.allowsRotation = false;
+    
+    //follow the current flying penguin
+    _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:_followPenguin];
+    
+    //once fired, set to true
+    _currentPenguin.launched = TRUE;
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
