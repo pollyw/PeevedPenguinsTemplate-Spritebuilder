@@ -135,7 +135,6 @@
 */
 
 - (void)launchPenguin {
-    /*
     //loads the Penguid.ccb we have set up in spritebuilder
     CCNode *penguin = [CCBReader load:@"Penguin"];
     
@@ -159,8 +158,8 @@
     
     //scroll only the contentNode
     [_contentNode runAction:follow];
-     
-    */
+    
+    /*
     
     _currentPenguin = (Penguin*)[CCBReader load:@"Penguin"];
     
@@ -187,6 +186,8 @@
     
     //once fired, set to true
     _currentPenguin.launched = TRUE;
+     
+     */
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
