@@ -125,19 +125,34 @@
         _currentPenguin.launched = TRUE;
     }
 }
-
+*/
  
 
 -(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
     //when touches end, meaning the user releases their finer, release the catapult
-    [self releaseCatapult];
+    //[self releaseCatapult];
+    
+    //follow the current flying penguin
+    _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:_followPenguin];
+    
+    //once fired, set to true
+    _currentPenguin.launched = TRUE;
+
 }
 
 -(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event {
     //when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
-    [self releaseCatapult];
+    //[self releaseCatapult];
+    
+    //follow the current flying penguin
+    _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:_followPenguin];
+    
+    //once fired, set to true
+    _currentPenguin.launched = TRUE;
+
 }
-*/
 
 - (void)launchPenguin {
     //loads the Penguid.ccb we have set up in spritebuilder
