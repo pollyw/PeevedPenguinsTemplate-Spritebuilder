@@ -153,6 +153,7 @@
     CGPoint force = ccpMult(launchDirection, 50000);
     [penguin.physicsBody applyForce:force];
     
+    /*
     //ensure followed object is in visible are when starting
     self.position = ccp(0,0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
@@ -162,8 +163,6 @@
     
     //scroll only the contentNode
     [_contentNode runAction:follow];
-    
-    /*
     
     _currentPenguin = (Penguin*)[CCBReader load:@"Penguin"];
     
