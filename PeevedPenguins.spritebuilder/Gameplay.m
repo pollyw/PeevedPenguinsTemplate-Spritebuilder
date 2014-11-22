@@ -81,8 +81,8 @@
         //_currentPenguin.physicsBody.allowsRotation = false;
         
         //follow the current flying penguin
-        _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
-        [_contentNode runAction:_followPenguin];
+        //_followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        //[_contentNode runAction:_followPenguin];
         
         //once fired, set to true
         _currentPenguin.launched = TRUE;
@@ -153,7 +153,7 @@
     CGPoint force = ccpMult(launchDirection, 50000);
     [penguin.physicsBody applyForce:force];
     
-    /*
+    
     //ensure followed object is in visible are when starting
     self.position = ccp(0,0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
@@ -164,6 +164,7 @@
     //scroll only the contentNode
     [_contentNode runAction:follow];
     
+    /*
     _currentPenguin = (Penguin*)[CCBReader load:@"Penguin"];
     
     //initially position it on the scoop. 34,138 is the position in the node space of the catapultArm
