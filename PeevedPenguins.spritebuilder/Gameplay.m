@@ -80,6 +80,10 @@
         //we dont want the penguin to rotate in the scoop
         //_currentPenguin.physicsBody.allowsRotation = false;
         
+        //follow the current flying penguin
+        _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        [_contentNode runAction:_followPenguin];
+        
         //once fired, set to true
         _currentPenguin.launched = TRUE;
         
@@ -87,10 +91,6 @@
         CGPoint launchDirection = ccp(1,.6);
         CGPoint force = ccpMult(launchDirection, 50000);
         [_currentPenguin.physicsBody applyForce:force];
-        
-        //follow the current flying penguin
-        _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
-        [_contentNode runAction:_followPenguin];
         
         //create a join to keep the penguin fixed to the scoop until the catapult is released
         //_penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
