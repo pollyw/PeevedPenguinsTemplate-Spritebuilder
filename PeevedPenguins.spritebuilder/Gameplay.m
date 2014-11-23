@@ -149,6 +149,7 @@
     _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
     [_contentNode runAction:_followPenguin];
     
+    
     //once fired, set to true
     _currentPenguin.launched = TRUE;
 
